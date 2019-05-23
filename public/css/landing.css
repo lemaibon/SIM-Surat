@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  color: tomato;
+}
+
+body {
+  background-color: black;
+}
+
+nav {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a {
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  width: 120px;
+  padding: 1em 0;
+  display: inline-block;
+  font-weight: bold;
+  transition: all .4s ease-in-out;
+}
+
+.line {
+  width: 120px;
+  height: 3px;
+  background-color: #ffffff;
+  transition: all .4s ease-in-out;
+}
+
+a:nth-child(2):hover ~ .line {
+  transform: translate(125px);
+  transition: all .4s ease-in-out;
+  background-color: tomato;
+}
+
+a:nth-child(2):hover {
+  color: tomato;
+}
+
+a:nth-child(3):hover ~ .line {
+  transform: translate(250px);
+  transition: all .4s ease-in-out;
+  background-color: yellow;
+}
+
+a:nth-child(3):hover {
+  color: yellow;
+}
+
+a:nth-child(4):hover ~ .line {
+  transform: translate(375px);
+  transition: all .4s ease-in-out;
+  background-color: skyblue;
+}
+
+a:nth-child(4):hover {
+  color: skyblue;
+}
+
+a:nth-child(5):hover ~ .line {
+  transform: translate(500px);
+  transition: all .4s ease-in-out;
+  background-color: magenta;
+}
+
+a:nth-child(5):hover {
+  color: magenta;
+}
+
+.jumbotron {
+  position: absolute;
+  top: 35%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.jumbotron a {
+
+  text-decoration: none;
+  font-size: 120px;
+}
+
+
+.jumbotron a:hover {
+  color: orange;
+}
