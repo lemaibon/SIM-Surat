@@ -3831,13 +3831,19 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
+jQuery.print@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/jQuery.print/-/jQuery.print-1.5.1.tgz#ed71fe00acf2b16fe163a62f1eef2fab79e4597a"
+  dependencies:
+    jquery ">=1.7.2"
+
 jquery-mousewheel@~3.1.13:
   version "3.1.13"
   resolved "https://registry.yarnpkg.com/jquery-mousewheel/-/jquery-mousewheel-3.1.13.tgz#06f0335f16e353a695e7206bf50503cb523a6ee5"
 
-jquery@^3.2:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
+jquery@>=1.7.2, jquery@^3.5:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.0.tgz#9980b97d9e4194611c36530e7dc46a58d7340fc9"
 
 js-base64@^2.1.8, js-base64@^2.1.9:
   version "2.4.3"
